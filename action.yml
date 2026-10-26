@@ -12,5 +12,5 @@ inputs:
     default: ''
     description: 'By default, this action expects markdown links to PRs in the changelog. You can opt to just look for different matches. Default is empty, other allowed values: SIMPLE_ROUND_BRACKETS'
 runs:
-  using: 'node20'
+  using: 'node24'
   main: 'dist/index.js'
